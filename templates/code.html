@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+
+{% block head %}
+<title>Python Code</title>
+{% endblock %}
+
+{% block body %}
+{% include 'layouts/navbar.html' %}
+<div class="container text-center">
+    <h3>Here are some python projects I made in class</h3>
+</div>
+<div class="text-center">
+    <iframe src="https://trinket.io/embed/python/5cc15d6f20?runOption=run" width="80%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+</div>
+{% include 'layouts/footer.html' %}
+{% endblock %}
